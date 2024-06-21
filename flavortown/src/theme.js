@@ -2,7 +2,8 @@ import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
     typography: {
-        fontFamily: 'FontY, Arial, sans-serif', // Default to sans-serif FontY
+        fontFamily: 'Carrois Gothic, sans-serif',
+         // Default to sans-serif FontY
         h1: {
             fontFamily: 'FontX, Times, serif', // Serif FontX for headings
             fontWeight: 700,
