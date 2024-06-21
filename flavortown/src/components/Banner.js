@@ -1,16 +1,16 @@
 
-
+import { Typography } from "@mui/material";
 
 const Banner = () => {
     const bannerStyleObj = {
         fontSize: 72,
-        color: "blue",
+        color: "#7bb7d1",
         textAlign: "left",
         // paddingTop: "40px",
         paddingLeft: "40px",
     }
 return (
-    <h1 style={bannerStyleObj}>Flavortown USA</h1>
+    <Typography style={bannerStyleObj}>Flavortown USA</Typography>
 )
 }
 
